@@ -54,16 +54,16 @@ public class NewOrderTest {
     public void newOrderTest() {
         OrderPage objOrderPage = new OrderPage(driverRules.getDriver());
         objOrderPage.makeOrder(
-            newOrderButton,
-            fName,
-            lName,
-            address,
-            metroStation,
-            phone,
-            deliveryDate,
-            termRent,
-            colourId,
-            comment);
+                newOrderButton,
+                fName,
+                lName,
+                address,
+                metroStation,
+                phone,
+                deliveryDate,
+                termRent,
+                colourId,
+                comment);
     }
 }
 
